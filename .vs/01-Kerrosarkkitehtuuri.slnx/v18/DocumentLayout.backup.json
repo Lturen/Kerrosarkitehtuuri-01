@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lauri Taur\u00E9n\\OneDrive - Kaakkois-Suomen ammattikorkeakoulu Oy\\Ohjelmistoarkitehtuuri\\01-Kerrosarkkitehtuuri\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lauri Taur\u00E9n\\OneDrive - Kaakkois-Suomen ammattikorkeakoulu Oy\\Ohjelmistoarkitehtuuri\\01-Kerrosarkkitehtuuri\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lauri Taur\u00E9n\\OneDrive - Kaakkois-Suomen ammattikorkeakoulu Oy\\Ohjelmistoarkitehtuuri\\01-Kerrosarkkitehtuuri\\ohjelmistoarkkitehtuuri.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ohjelmistoarkkitehtuuri.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\OneDrive - Kaakkois-Suomen ammattikorkeakoulu Oy\\Ohjelmistoarkitehtuuri\\01-Kerrosarkkitehtuuri\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\OneDrive - Kaakkois-Suomen ammattikorkeakoulu Oy\\Ohjelmistoarkitehtuuri\\01-Kerrosarkkitehtuuri\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAACEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-03T18:13:39.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ohjelmistoarkkitehtuuri.md",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\OneDrive - Kaakkois-Suomen ammattikorkeakoulu Oy\\Ohjelmistoarkitehtuuri\\01-Kerrosarkkitehtuuri\\ohjelmistoarkkitehtuuri.md",
+              "RelativeDocumentMoniker": "ohjelmistoarkkitehtuuri.md",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\OneDrive - Kaakkois-Suomen ammattikorkeakoulu Oy\\Ohjelmistoarkitehtuuri\\01-Kerrosarkkitehtuuri\\ohjelmistoarkkitehtuuri.md",
+              "RelativeToolTip": "ohjelmistoarkkitehtuuri.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-03T18:13:36.738Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
