@@ -19,12 +19,14 @@ Näitä **ei palauteta**. Käy läpi sen jälkeen kun ohjattu osio on tehty.
 3. Käy läpi, mitä tapahtuu kun `POST /api/matches/1/result` kutsu saapuu.
 
 4. Mihin kerrokseen kuuluvat: (a) `return NotFound(...)` (b) `if (match.HomeGoals is not null)` (c) `_matches.FirstOrDefault(...)`?
+   --Controller luokka palauttaa notfound.
 
 5. Miksi `IMatchRepositoryssa` ei ole metodia `IsResultAlreadyRecorded`?
 
 ## SOLID ja DI
 
 6. Mitä **SRP** tarkoittaa? Miten `LeagueController` rikkoi sitä?
+   --Yksi luokka, yksi tehtävä. Esim repositories on tarkoitettu säilömään dataa.
 
 7. Mitä **DIP** tarkoittaa? Kaksi hyötyä siitä, että `MatchService` riippuu `IMatchRepositorysta`.
 

@@ -1,0 +1,7 @@
+bin/
+obj/
+*.user
+
+# Old locations left behind when Visual Studio locked .vs index files
+/spaghetti/
+/layered/
