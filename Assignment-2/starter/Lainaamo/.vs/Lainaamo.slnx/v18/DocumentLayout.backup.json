@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\inmemoryloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\inmemoryloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\inmemoryitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\inmemoryitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\controllers\\lainaamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:controllers\\lainaamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILoanservice.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\ILoanservice.cs",
+              "RelativeDocumentMoniker": "Services\\ILoanservice.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\ILoanservice.cs*",
+              "RelativeToolTip": "Services\\ILoanservice.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:26:20.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\IItemService.cs",
+              "RelativeDocumentMoniker": "Services\\IItemService.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\IItemService.cs*",
+              "RelativeToolTip": "Services\\IItemService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:25:57.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\ItemService.cs*",
+              "RelativeToolTip": "Services\\ItemService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:25:27.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\LoanService.cs*",
+              "RelativeToolTip": "Services\\LoanService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:25:13.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Models\\Loan.cs",
+              "RelativeDocumentMoniker": "Models\\Loan.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Models\\Loan.cs*",
+              "RelativeToolTip": "Models\\Loan.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:14:57.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Models\\Item.cs*",
+              "RelativeToolTip": "Models\\Item.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T11:14:12.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InMemoryItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\InMemoryItemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InMemoryItemRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\InMemoryItemRepository.cs*",
+              "RelativeToolTip": "Repositories\\InMemoryItemRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T10:53:52.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\ILoanRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ILoanRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\ILoanRepository.cs*",
+              "RelativeToolTip": "Repositories\\ILoanRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T10:43:55.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InMemoryLoanRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\InMemoryLoanRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InMemoryLoanRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\InMemoryLoanRepository.cs*",
+              "RelativeToolTip": "Repositories\\InMemoryLoanRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T10:43:04.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LainaamoController.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Controllers\\LainaamoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LainaamoController.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Controllers\\LainaamoController.cs",
+              "RelativeToolTip": "Controllers\\LainaamoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T06:39:56.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IitemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\IitemRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IitemRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\IitemRepository.cs*",
+              "RelativeToolTip": "Repositories\\IitemRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-08T06:40:40.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

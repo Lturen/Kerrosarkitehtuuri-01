@@ -98,23 +98,8 @@ public class LainaamoController : ControllerBase
     }
 }
 
-public class Item
-{
-    public int Id { get; set; }
-    public string Name { get; set; } = string.Empty;
-}
 
-public class Loan
-{
-    public int Id { get; set; }
-    public int ItemId { get; set; }
-    public string BorrowerName { get; set; } = string.Empty;
-    public DateTime BorrowedAt { get; set; }
-    public DateTime? ReturnedAt { get; set; }
-}
 
-public class LoanRequest
-{
-    public int ItemId { get; set; }
-    public string BorrowerName { get; set; } = string.Empty;
-}
+
+
+
