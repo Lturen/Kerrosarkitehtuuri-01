@@ -9,7 +9,7 @@ namespace Lainaamo.Services
 
         Item? GetById(int id);
 
-        Item Create(int id, string name);
+        Item Create(Item item);
 
     }
 }

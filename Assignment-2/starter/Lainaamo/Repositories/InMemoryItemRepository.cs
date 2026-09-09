@@ -22,7 +22,7 @@ namespace Lainaamo.Repositories
             return _items;
         }
 
-        public Item GetItem(int id)
+        public Item? GetItem(int id)
         {
             return _items.FirstOrDefault(i => i.Id == id);
         }

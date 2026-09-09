@@ -6,14 +6,14 @@ namespace Lainaamo.Services
 {
     public class LoanService : ILoanservice
     {
-        private readonly ILoanRepository _loanRepository;
+        private readonly ILoanRepository _loans;
 
-        private readonly IItemRepository _itemRepository;
+        private readonly IItemRepository _items;
 
-        public LoanService(ILoanRepository loanRepository, IItemRepository itemRepository)
+        public LoanService(ILoanRepository loans, IItemRepository items)
         {
-            _loanRepository = loanRepository;
-            _itemRepository = itemRepository;
+            _loans = loans;
+            _items = items;
         }
 
         public List<Loan> GetLoans()
@@ -23,9 +23,9 @@ namespace Lainaamo.Services
 
         public Loan GetById(int id)
         {
-            Loan? loan = _loans
+            Loan? loan = _loans.GetLoanById(id);
 
-            return _loanRepository.GetLoan(id);
+            return loan ?? throw new NotFoundException("Loan not found.");
         }
 
         public Loan Create(int itemId, string borrowerName, DateTime BorrowedAt, DateTime returnedAt)
@@ -38,18 +38,17 @@ namespace Lainaamo.Services
             {
                 throw new LoanCantBeCreated("Borrower name is invalid or name length is too short.");
             }
-            else if ()
-            {
+            
+            
 
-                Loan newLoan = new Loan
-                {
-                    ItemId = itemId,
-                    BorrowerName = borrowerName,
-                    BorrowedAt = BorrowedAt,
-                    ReturnedAt = returnedAt
-                };
-            }
-            return _loanRepository.Add(newLoan);
+            return _loans.Add(new Loan
+            {
+                ItemId = itemId,
+                BorrowerName = borrowerName,
+                BorrowedAt = BorrowedAt,
+                ReturnedAt = returnedAt
+            });
+
         }
         
 

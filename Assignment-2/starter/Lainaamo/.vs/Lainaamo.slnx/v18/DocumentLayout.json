@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\controllers\\lainaamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:controllers\\lainaamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\exceptions\\itemalreadyonloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:exceptions\\itemalreadyonloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\inmemoryitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\inmemoryitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,52 +63,12 @@
       "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\inmemoryloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\exceptions\\itemalreadyonloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:exceptions\\itemalreadyonloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\exceptions\\itemcantbecreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:exceptions\\itemcantbecreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\exceptions\\loancantbecreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:exceptions\\loancantbecreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\iloanrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\repositories\\inmemoryitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:repositories\\inmemoryitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\assignment-2\\starter\\lainaamo\\controllers\\lainaamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F283552-8A4D-5EA8-A790-1197D405E2D7}|Lainaamo.csproj|solutionrelative:controllers\\lainaamocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,11 +78,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Controllers\\ItemsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T17:16:32.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T17:03:37.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ItemCantBeCreated.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Exceptions\\ItemCantBeCreated.cs",
               "RelativeDocumentMoniker": "Exceptions\\ItemCantBeCreated.cs",
@@ -82,12 +116,11 @@
               "RelativeToolTip": "Exceptions\\ItemCantBeCreated.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T12:42:25.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T12:42:25.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "LoanCantBeCreated.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Exceptions\\LoanCantBeCreated.cs",
               "RelativeDocumentMoniker": "Exceptions\\LoanCantBeCreated.cs",
@@ -95,12 +128,11 @@
               "RelativeToolTip": "Exceptions\\LoanCantBeCreated.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T12:41:51.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T12:41:51.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ItemAlreadyOnLoan.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Exceptions\\ItemAlreadyOnLoan.cs",
               "RelativeDocumentMoniker": "Exceptions\\ItemAlreadyOnLoan.cs",
@@ -113,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "Exceptions\\NotFoundException.cs",
@@ -126,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "ILoanservice.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\ILoanservice.cs",
               "RelativeDocumentMoniker": "Services\\ILoanservice.cs",
@@ -134,51 +166,50 @@
               "RelativeToolTip": "Services\\ILoanservice.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T11:26:20.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T11:26:20.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IItemService.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\IItemService.cs",
               "RelativeDocumentMoniker": "Services\\IItemService.cs",
               "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\IItemService.cs",
               "RelativeToolTip": "Services\\IItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-08T11:25:57.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ItemService.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\ItemService.cs",
               "RelativeDocumentMoniker": "Services\\ItemService.cs",
               "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\ItemService.cs",
               "RelativeToolTip": "Services\\ItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCkAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-08T11:25:27.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "LoanService.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\LoanService.cs",
               "RelativeDocumentMoniker": "Services\\LoanService.cs",
               "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Services\\LoanService.cs",
               "RelativeToolTip": "Services\\LoanService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-08T11:25:13.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "Loan.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Models\\Loan.cs",
               "RelativeDocumentMoniker": "Models\\Loan.cs",
@@ -191,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Models\\Item.cs",
@@ -204,20 +235,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "InMemoryItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\InMemoryItemRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\InMemoryItemRepository.cs",
               "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\InMemoryItemRepository.cs",
               "RelativeToolTip": "Repositories\\InMemoryItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-08T10:53:52.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ILoanRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\ILoanRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ILoanRepository.cs",
@@ -230,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "InMemoryLoanRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\InMemoryLoanRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\InMemoryLoanRepository.cs",
@@ -238,12 +269,11 @@
               "RelativeToolTip": "Repositories\\InMemoryLoanRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-08T10:43:04.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-08T10:43:04.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "LainaamoController.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Controllers\\LainaamoController.cs",
               "RelativeDocumentMoniker": "Controllers\\LainaamoController.cs",
@@ -256,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Assignment-2\\starter\\Lainaamo\\Repositories\\IItemRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IItemRepository.cs",
