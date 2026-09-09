@@ -20,6 +20,7 @@ Näitä **ei palauteta**. Käy läpi sen jälkeen kun ohjattu osio on tehty.
 
 4. Mihin kerrokseen kuuluvat: (a) `return NotFound(...)` (b) `if (match.HomeGoals is not null)` (c) `_matches.FirstOrDefault(...)`?
    --Controller luokka palauttaa notfound.
+   --(b) Bisnes logiikka kuuluu services kerrokseen.
 
 5. Miksi `IMatchRepositoryssa` ei ole metodia `IsResultAlreadyRecorded`?
 
@@ -31,5 +32,6 @@ Näitä **ei palauteta**. Käy läpi sen jälkeen kun ohjattu osio on tehty.
 7. Mitä **DIP** tarkoittaa? Kaksi hyötyä siitä, että `MatchService` riippuu `IMatchRepositorysta`.
 
 8. Mitä konstruktori-injektio tarkoittaa?
+   --Tarkoittanee sitä että ei luoda riippuvuutta suoraan toiseen luokkaan, vaan käytetään luokan rajapintaa. Tämä otetaan käyttöön toisen luokan konstruktorissa,
 
 9. Miksi in-memory-repositoryt rekisteröidään **Singletonina**? Mitä tapahtuu, jos ne ovat **Scoped**?
