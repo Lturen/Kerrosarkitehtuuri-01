@@ -1,4 +1,6 @@
 ﻿using Lainaamo.Services;
+using Lainaamo.Models;
+using Lainaamo.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lainaamo.Controllers;
@@ -23,7 +25,14 @@ public class ItemsController : ControllerBase
     {
         return Ok(_items.GetById(id));
     }
-    
+
+    [HttpPost]
+
+    public IActionResult Create(Item item)
+    {
+        return Ok(_items.Create(item));
+    }
+
 
 
 }
