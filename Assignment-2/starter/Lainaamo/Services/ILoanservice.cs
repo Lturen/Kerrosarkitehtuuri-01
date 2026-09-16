@@ -1,4 +1,4 @@
-﻿using Lainaamo.Models;
+using Lainaamo.Models;
 
 namespace Lainaamo.Services
 {
@@ -8,6 +8,10 @@ namespace Lainaamo.Services
 
         Loan GetById(int id);
 
-        Loan Create (int itemId, string borrowerName, DateTime BorrowedAt, DateTime returnedAt);
+        Loan Create(int itemId, string borrowerName);
+
+        Loan Return(int id);
+
+        void Delete(int id);
     }
 }

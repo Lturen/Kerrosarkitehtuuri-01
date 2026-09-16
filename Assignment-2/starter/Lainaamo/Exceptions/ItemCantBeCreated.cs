@@ -1,6 +1,6 @@
-﻿namespace Lainaamo.Exceptions
+namespace Lainaamo.Exceptions
 {
-    public class ItemCantBeCreated : Exception
+    public class ItemCantBeCreated : BusinessRuleException
     {
         public ItemCantBeCreated(string message) : base(message)
         {

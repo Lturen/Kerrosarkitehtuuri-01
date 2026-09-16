@@ -1,6 +1,6 @@
-﻿namespace Lainaamo.Exceptions
+namespace Lainaamo.Exceptions
 {
-    public class ItemAlreadyOnLoan : Exception
+    public class ItemAlreadyOnLoan : BusinessRuleException
     {
         public ItemAlreadyOnLoan(string message) : base(message)
         {

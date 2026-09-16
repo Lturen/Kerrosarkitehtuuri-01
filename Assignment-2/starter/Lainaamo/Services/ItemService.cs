@@ -1,6 +1,6 @@
-﻿using Lainaamo.Models;
+using Lainaamo.Models;
 using Lainaamo.Repositories;
-using System.Xml;
+using Lainaamo.Exceptions;
 
 namespace Lainaamo.Services
 {
@@ -8,9 +8,12 @@ namespace Lainaamo.Services
     {
         private readonly IItemRepository _items;
 
-        public ItemService (IItemRepository items) 
+        private readonly ILoanRepository _loans;
+
+        public ItemService(IItemRepository items, ILoanRepository loans)
         {
             _items = items;
+            _loans = loans;
         }
 
         public List<Item> GetItems()
@@ -24,30 +27,50 @@ namespace Lainaamo.Services
 
             if (item == null)
             {
-                throw new DllNotFoundException("There is no product like you are searching");
+                throw new NotFoundException("There is no product like you are searching");
             }
-
 
             return item;
         }
 
-        public Item Create(Item item)
+        public Item Create(int id, string name)
         {
-            var nimet = _items.GetItems().Select(i => i.Name).ToList();
-
-            if (nimet.Contains(item.Name))
+            if (string.IsNullOrWhiteSpace(name) || name.Trim().Length < 3)
             {
-                throw new InvalidOperationException("Item with the same name already exists");
-            }
-            else if (item.Name == null || item.Name == " " || item.Name.Length < 3)
-            {
-                throw new InvalidOperationException("Item name must be at least 3 characters long");
+                throw new ItemCantBeCreated("Item name must be at least 3 characters long");
             }
 
-            return _items.AddItem(item);
+            name = name.Trim();
+
+            bool nameTaken = _items.GetItems()
+                .Any(i => string.Equals(i.Name, name, StringComparison.OrdinalIgnoreCase));
+
+            if (nameTaken)
+            {
+                throw new ItemCantBeCreated("Item with the same name already exists");
+            }
+
+            return _items.AddItem(new Item { Name = name });
         }
 
+        public void Delete(int id)
+        {
+            Item? item = _items.GetItem(id);
 
+            if (item == null)
+            {
+                throw new NotFoundException($"Item {id} not found.");
+            }
 
+            bool onLoan = _loans.GetLoans()
+                .Any(l => l.ItemId == id && l.ReturnedAt == null);
+
+            if (onLoan)
+            {
+                throw new ItemCantBeDeleted($"Item {id} cannot be deleted while it is on loan.");
+            }
+
+            _items.RemoveItem(item);
+        }
     }
 }

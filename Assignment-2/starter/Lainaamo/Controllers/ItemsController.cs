@@ -1,6 +1,6 @@
-﻿using Lainaamo.Services;
-using Lainaamo.Models;
 using Lainaamo.Exceptions;
+using Lainaamo.Models;
+using Lainaamo.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lainaamo.Controllers;
@@ -15,7 +15,7 @@ public class ItemsController : ControllerBase
     {
         _items = items;
     }
-    [HttpGet]
+    [HttpGet("items")]
     public IActionResult Get()
     {
         return Ok(_items.GetItems());
@@ -26,14 +26,41 @@ public class ItemsController : ControllerBase
         return Ok(_items.GetById(id));
     }
 
-    [HttpPost]
+    [HttpPost("items")]
 
     public IActionResult Create(Item item)
     {
-        return Ok(_items.Create(item));
+        try
+        {
+            Item created = _items.Create(item.Id, item.Name);
+            return Created($"/api/items/{created.Id}", created);
+        }
+        catch (ItemCantBeCreated ex)
+        {
+            return BadRequest(ex.Message);
+        }
+        catch (NotFoundException ex)
+        {
+            return NotFound(ex.Message);
+        }
+
     }
 
-
-
+    [HttpDelete("{id}")]
+    public IActionResult Delete(int id)
+    {
+        try
+        {
+            _items.Delete(id);
+            return NoContent();
+        }
+        catch (ItemCantBeDeleted ex)
+        {
+            return BadRequest(ex.Message);
+        }
+        catch (NotFoundException ex)
+        {
+            return NotFound(ex.Message);
+        }
+    }
 }
-

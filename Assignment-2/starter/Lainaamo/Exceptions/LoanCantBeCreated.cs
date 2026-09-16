@@ -1,8 +1,6 @@
-﻿using Microsoft.Extensions.Diagnostics.HealthChecks;
-
 namespace Lainaamo.Exceptions
 {
-    public class LoanCantBeCreated : Exception
+    public class LoanCantBeCreated : BusinessRuleException
     {
         public LoanCantBeCreated(string message) : base(message)
         {

@@ -1,4 +1,4 @@
-﻿namespace Lainaamo.Models;
+namespace Lainaamo.Models;
 
 public class Loan
 {

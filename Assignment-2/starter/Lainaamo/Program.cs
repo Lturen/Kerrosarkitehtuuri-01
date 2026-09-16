@@ -7,8 +7,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 builder.Services.AddSingleton<IItemRepository, InMemoryItemRepository>();
-builder.Services.AddSingleton<IItemService, ItemService>();
+builder.Services.AddSingleton<ILoanRepository, InMemoryLoanRepository>();
+builder.Services.AddScoped<IItemService, ItemService>();
+builder.Services.AddScoped<ILoanservice, LoanService>();
 
 WebApplication app = builder.Build();
 
