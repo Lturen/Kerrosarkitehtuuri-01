@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\services\\playerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\services\\teamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\services\\iplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\services\\iplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\services\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\services\\iteamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\repository\\inmemoryplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\repository\\inmemoryplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\repository\\iplayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\models\\match.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\models\\leaguetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\models\\leaguetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\expections\\teamexpection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\expections\\teamexpection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\models\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\models\\matchscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\models\\matchscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\repository\\inmemoryteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\repository\\inmemoryteamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|c:\\users\\lauri taur\u00E9n\\desktop\\ohjelmointituomas\\01-kerrosarkkitehtuuri\\tehtava2\\02-cleanarchitecture\\assignment-1\\leaguehub\\leaguehub\\repository\\iteammemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94B4320B-0684-4FE6-90E3-9CED0A175BC8}|LeagueHub\\LeagueHub.csproj|solutionrelative:leaguehub\\repository\\iteammemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\IPlayerService.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Services\\IPlayerService.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\IPlayerService.cs",
+              "RelativeToolTip": "LeagueHub\\Services\\IPlayerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T11:08:00.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\PlayerService.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Services\\PlayerService.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\PlayerService.cs",
+              "RelativeToolTip": "LeagueHub\\Services\\PlayerService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T11:07:38.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\IPlayerRepository.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Repository\\IPlayerRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\IPlayerRepository.cs",
+              "RelativeToolTip": "LeagueHub\\Repository\\IPlayerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:52:47.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InMemoryPlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\InMemoryPlayerRepository.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Repository\\InMemoryPlayerRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\InMemoryPlayerRepository.cs",
+              "RelativeToolTip": "LeagueHub\\Repository\\InMemoryPlayerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:51:26.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeamExpection.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Expections\\TeamExpection.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Expections\\TeamExpection.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Expections\\TeamExpection.cs",
+              "RelativeToolTip": "LeagueHub\\Expections\\TeamExpection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:26:11.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITeamService.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\ITeamService.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Services\\ITeamService.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\ITeamService.cs",
+              "RelativeToolTip": "LeagueHub\\Services\\ITeamService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:16:11.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamService.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\TeamService.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Services\\TeamService.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Services\\TeamService.cs",
+              "RelativeToolTip": "LeagueHub\\Services\\TeamService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwEsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T10:15:51.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InMemoryTeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\InMemoryTeamRepository.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Repository\\InMemoryTeamRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\InMemoryTeamRepository.cs",
+              "RelativeToolTip": "LeagueHub\\Repository\\InMemoryTeamRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:57:34.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITeamMemoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\ITeamMemoryRepository.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Repository\\ITeamMemoryRepository.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Repository\\ITeamMemoryRepository.cs",
+              "RelativeToolTip": "LeagueHub\\Repository\\ITeamMemoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:51:50.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MatchScore.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\MatchScore.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Models\\MatchScore.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\MatchScore.cs",
+              "RelativeToolTip": "LeagueHub\\Models\\MatchScore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:48:19.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeagueTable.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\LeagueTable.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Models\\LeagueTable.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\LeagueTable.cs",
+              "RelativeToolTip": "LeagueHub\\Models\\LeagueTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:30:54.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Match.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\Match.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Models\\Match.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\Match.cs",
+              "RelativeToolTip": "LeagueHub\\Models\\Match.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:29:27.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\Team.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Models\\Team.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\Team.cs",
+              "RelativeToolTip": "LeagueHub\\Models\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:28:26.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "LeagueHub\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\Lauri Taur\u00E9n\\Desktop\\ohjelmointiTuomas\\01-Kerrosarkkitehtuuri\\Tehtava2\\02-CleanArchitecture\\Assignment-1\\LeagueHub\\LeagueHub\\Models\\Player.cs",
+              "RelativeToolTip": "LeagueHub\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T09:28:09.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
