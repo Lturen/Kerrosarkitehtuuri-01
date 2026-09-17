@@ -1,0 +1,8 @@
+bin/
+obj/
+*.user
+
+# SQLite-tietokantatiedostot eivät kuulu gittiin
+*.db
+*.db-shm
+*.db-wal

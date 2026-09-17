@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Kerrokset kansioina vastaan erillisinä projekteina">
+  <rect width="960" height="420" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">Kansiot eivät valvo — projektit valvovat</text>
+
+  <rect x="40" y="70" width="420" height="280" rx="10" fill="#fff1ee" stroke="#c1121f" stroke-width="2"/>
+  <text x="56" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#1d3557" font-weight="700">Kerta 1 — yksi projekti</text>
+  <text x="56" y="128" font-family="Segoe UI, Consolas, monospace" font-size="14" fill="#1d3557">LeagueHub/</text>
+  <text x="72" y="152" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">Controllers/</text>
+  <text x="72" y="176" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">Services/</text>
+  <text x="72" y="200" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">Repositories/</text>
+  <text x="56" y="236" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#9b2226">Controller voi kutsua repositorya.</text>
+  <text x="56" y="258" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#9b2226">Kääntäjä ei estä. Vain kuri estää.</text>
+
+  <rect x="500" y="70" width="420" height="280" rx="10" fill="#e9f5f3" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="516" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#1d3557" font-weight="700">Kerta 2 — neljä projektia</text>
+  <text x="516" y="128" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">LeagueHub.Api</text>
+  <text x="516" y="152" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">LeagueHub.Application</text>
+  <text x="516" y="176" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">LeagueHub.Infrastructure</text>
+  <text x="516" y="200" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">LeagueHub.Domain</text>
+  <text x="516" y="236" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Domainissa ei ole viittausta muualle.</text>
+  <text x="516" y="258" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Väärä using ei käänny.</text>
+
+  <text x="40" y="384" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Sama tuote. Ero on siinä, kuka valvoo riippuvuussääntöä: ihminen vai kääntäjä.</text>
+</svg>

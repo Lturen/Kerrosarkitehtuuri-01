@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="510" viewBox="0 0 960 510" role="img" aria-label="LeagueHubin käsitteet ja niiden suhteet asiakkaan kielellä">
+  <rect width="960" height="510" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">LeagueHub — asiakkaan käsitteet ja niiden suhteet</text>
+  <defs>
+    <marker id="mapArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1d3557"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="80" width="250" height="120" rx="10" fill="#3d5a80"/>
+  <text x="84" y="116" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Joukkue</text>
+  <text x="84" y="142" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">nimi, kaupunki</text>
+  <text x="84" y="162" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">rosterin yläraja</text>
+
+  <rect x="60" y="330" width="250" height="100" rx="10" fill="#457b9d"/>
+  <text x="84" y="362" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Pelaaja</text>
+  <text x="84" y="390" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">nimi, pelinumero</text>
+
+  <line x1="185" y1="330" x2="185" y2="204" stroke="#1d3557" stroke-width="2.5" marker-end="url(#mapArrow)"/>
+  <text x="200" y="272" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">kuuluu joukkueeseen</text>
+
+  <rect x="430" y="80" width="250" height="120" rx="10" fill="#1d3557"/>
+  <text x="454" y="116" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Ottelu</text>
+  <text x="454" y="142" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">kotijoukkue, vierasjoukkue</text>
+  <text x="454" y="162" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">ajankohta</text>
+
+  <line x1="310" y1="140" x2="426" y2="140" stroke="#1d3557" stroke-width="2.5" marker-end="url(#mapArrow)"/>
+  <text x="330" y="128" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">pelaa</text>
+
+  <rect x="430" y="330" width="250" height="100" rx="10" fill="#2a9d8f"/>
+  <text x="454" y="362" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Tulos</text>
+  <text x="454" y="390" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">kotimaalit–vierasmaalit, esim. 5–2</text>
+
+  <line x1="555" y1="200" x2="555" y2="326" stroke="#1d3557" stroke-width="2.5" marker-end="url(#mapArrow)"/>
+  <text x="568" y="268" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">saa kerran, kun on pelattu</text>
+
+  <rect x="740" y="330" width="190" height="100" rx="10" fill="#e9f5f3" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="756" y="362" font-family="Segoe UI, Calibri, sans-serif" font-size="15" fill="#1d3557" font-weight="700">Sarjataulukko</text>
+  <text x="756" y="386" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">lasketaan</text>
+  <text x="756" y="406" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">tuloksista</text>
+
+  <line x1="680" y1="380" x2="736" y2="380" stroke="#1d3557" stroke-width="2.5" marker-end="url(#mapArrow)"/>
+
+  <text x="24" y="468" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Tässä kuvassa ei ole yhtään koodisanaa — tämä on asiakkaan maailma, jonka päälle ohjelma rakennetaan.</text>
+  <text x="24" y="492" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#457b9d">Huomaa: tuloksella ei ole omaa numeroa, ja sarjataulukkoa ei kirjata mihinkään — se lasketaan aina.</text>
+</svg>

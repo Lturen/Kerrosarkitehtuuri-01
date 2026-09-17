@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="LeagueHub.Api/LeagueHub.Api.csproj" />
+  <Project Path="LeagueHub.Application/LeagueHub.Application.csproj" />
+  <Project Path="LeagueHub.Domain/LeagueHub.Domain.csproj" />
+  <Project Path="LeagueHub.Infrastructure/LeagueHub.Infrastructure.csproj" />
+  <Project Path="LeagueHub.Tests/LeagueHub.Tests.csproj" />
+</Solution>

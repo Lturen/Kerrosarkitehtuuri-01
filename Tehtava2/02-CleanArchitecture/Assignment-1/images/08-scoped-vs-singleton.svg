@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-label="Repositoryn elinkaari seuraa siitä missä data elää">
+  <rect width="960" height="380" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">Elinkaari seuraa datan kotia</text>
+
+  <rect x="40" y="70" width="420" height="220" rx="10" fill="#1d3557"/>
+  <text x="56" y="104" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Kerta 1 — Singleton</text>
+  <text x="56" y="136" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Data elää repository-oliossa.</text>
+  <text x="56" y="160" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Olio kuolee — lista tyhjenee.</text>
+  <text x="56" y="196" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#a8dadc">AddSingleton IMatchRepository</text>
+  <text x="56" y="236" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">Scoped-repository = seuraava GET tyhjä.</text>
+
+  <rect x="500" y="70" width="420" height="220" rx="10" fill="#2a9d8f"/>
+  <text x="516" y="104" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Kerta 2 — Scoped</text>
+  <text x="516" y="136" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Data elää SQLite-tiedostossa.</text>
+  <text x="516" y="160" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">DbContext on Scoped (yksi / pyyntö).</text>
+  <text x="516" y="196" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#ffffff">AddScoped IMatchRepository</text>
+  <text x="516" y="236" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Singleton + DbContext = captive dependency.</text>
+
+  <text x="40" y="328" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Use caset ovat Scoped molemmilla kerroilla. Vaihtui vain se, jonka sisällä tila asui.</text>
+</svg>

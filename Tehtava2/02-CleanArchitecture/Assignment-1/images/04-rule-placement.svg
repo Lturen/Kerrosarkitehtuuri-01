@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="Säännön paikka: entiteetti tai use case">
+  <rect width="960" height="420" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">Mihin sääntö kuuluu?</text>
+
+  <rect x="40" y="70" width="420" height="280" rx="10" fill="#3d5a80"/>
+  <text x="56" y="104" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Entiteetti</text>
+  <text x="56" y="132" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#a8dadc">Koskee yhden olion omaa dataa.</text>
+  <text x="56" y="168" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Koti ja vieras eivät ole sama</text>
+  <text x="56" y="192" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Tulos vain kerran</text>
+  <text x="56" y="216" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Ottelu on jo pelattu</text>
+  <text x="56" y="240" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Maalit eivät ole negatiivisia (Score)</text>
+  <text x="56" y="276" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#a8dadc">Match.Create / RecordResult</text>
+
+  <rect x="500" y="70" width="420" height="280" rx="10" fill="#457b9d"/>
+  <text x="516" y="104" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Use case</text>
+  <text x="516" y="132" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#a8dadc">Tarvitaan haku tai toinen olio.</text>
+  <text x="516" y="168" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Molemmat joukkueet ovat olemassa</text>
+  <text x="516" y="192" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Ottelua ei löydy</text>
+  <text x="516" y="216" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#ffffff">Pelinumero uniikki joukkueessa</text>
+  <text x="516" y="240" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">(soveltava Player)</text>
+  <text x="516" y="276" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#a8dadc">CreateMatchUseCase</text>
+
+  <text x="40" y="384" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">return BadRequest(...) ei ole kumpikaan — se on HTTP ja kuuluu API-kerrokseen.</text>
+</svg>

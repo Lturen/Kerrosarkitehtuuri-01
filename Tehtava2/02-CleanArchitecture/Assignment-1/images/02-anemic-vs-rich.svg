@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-label="Aneeminen Match vastaan rikas Match">
+  <rect width="960" height="430" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">Aneeminen malli vs. rikas malli</text>
+
+  <rect x="40" y="70" width="420" height="290" rx="10" fill="#fff1ee" stroke="#c1121f" stroke-width="2"/>
+  <text x="56" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#1d3557" font-weight="700">Aneeminen — kerta 1</text>
+  <text x="56" y="130" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">public int? HomeGoals {{ get; set; }}</text>
+  <text x="56" y="162" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Match on tietosäiliö.</text>
+  <text x="56" y="186" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Säännöt ovat MatchServicessä.</text>
+  <text x="56" y="222" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#9b2226">new Match {{ HomeGoals = -1 }}</text>
+  <text x="56" y="246" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#9b2226">kääntyy ja menee listaan.</text>
+  <text x="56" y="280" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Kuka tahansa voi ohittaa säännön.</text>
+
+  <rect x="500" y="70" width="420" height="290" rx="10" fill="#e9f5f3" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="516" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#1d3557" font-weight="700">Rikas — kerta 2</text>
+  <text x="516" y="130" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#1d3557">public int? HomeGoals {{ get; private set; }}</text>
+  <text x="516" y="162" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Match suojaa omat sääntönsä.</text>
+  <text x="516" y="186" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Tila muuttuu vain metodeilla.</text>
+  <text x="516" y="222" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#2a9d8f">Match.Create(...)</text>
+  <text x="516" y="246" font-family="Segoe UI, Consolas, monospace" font-size="13" fill="#2a9d8f">match.RecordResult(score, now)</text>
+  <text x="516" y="280" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Virheellistä oliota ei voi luoda.</text>
+
+  <text x="40" y="396" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Invariantti = sääntö, jonka pitää olla voimassa aina kun olio on olemassa.</text>
+</svg>

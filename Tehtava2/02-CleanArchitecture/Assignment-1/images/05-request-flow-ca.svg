@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-label="POST result Clean Architecturessa">
+  <rect width="960" height="420" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">POST /api/matches/1/result — nyt CA</text>
+
+  <rect x="24" y="70" width="170" height="200" rx="10" fill="#e9edc9" stroke="#606c38" stroke-width="2"/>
+  <text x="40" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="15" fill="#1d3557" font-weight="700">1. HTTP</text>
+  <text x="40" y="126" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Swagger</text>
+  <text x="40" y="148" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">homeGoals</text>
+  <text x="40" y="168" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">awayGoals</text>
+
+  <rect x="210" y="70" width="170" height="200" rx="10" fill="#1d3557"/>
+  <text x="226" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="15" fill="#ffffff" font-weight="700">2. API</text>
+  <text x="226" y="126" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Controller</text>
+  <text x="226" y="148" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Kutsuu use casea</text>
+  <text x="226" y="168" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">400 / 404 / 200</text>
+  <text x="226" y="198" font-family="Segoe UI, Calibri, sans-serif" font-size="12" fill="#a8dadc">Ei sääntöjä</text>
+
+  <rect x="396" y="70" width="170" height="200" rx="10" fill="#457b9d"/>
+  <text x="412" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="15" fill="#ffffff" font-weight="700">3. Use case</text>
+  <text x="412" y="126" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Hae ottelu</text>
+  <text x="412" y="148" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Score.Create</text>
+  <text x="412" y="168" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">RecordResult</text>
+  <text x="412" y="188" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">UpdateAsync</text>
+  <text x="412" y="218" font-family="Segoe UI, Calibri, sans-serif" font-size="12" fill="#a8dadc">Orkestroi</text>
+
+  <rect x="582" y="70" width="170" height="200" rx="10" fill="#3d5a80"/>
+  <text x="598" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="15" fill="#ffffff" font-weight="700">4. Domain</text>
+  <text x="598" y="126" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Tulos jo?</text>
+  <text x="598" y="148" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Ajankohta ohi?</text>
+  <text x="598" y="168" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Maalit &gt;= 0</text>
+  <text x="598" y="198" font-family="Segoe UI, Calibri, sans-serif" font-size="12" fill="#a8dadc">Invariantit</text>
+
+  <rect x="768" y="70" width="168" height="200" rx="10" fill="#2a9d8f"/>
+  <text x="784" y="100" font-family="Segoe UI, Calibri, sans-serif" font-size="15" fill="#ffffff" font-weight="700">5. Infra</text>
+  <text x="784" y="126" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">EF Core</text>
+  <text x="784" y="148" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">SQLite</text>
+  <text x="784" y="168" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">SaveChanges</text>
+  <text x="784" y="198" font-family="Segoe UI, Calibri, sans-serif" font-size="12" fill="#ffffff">Ei sääntöjä</text>
+
+  <text x="24" y="310" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#1d3557">Kerralla 1 vaiheet 3 ja 4 olivat sama Service. Nyt orkestrointi ja invariantti ovat eri projekteissa.</text>
+  <text x="24" y="336" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#457b9d">Use case ei toista if (HomeGoals is not null) — sen tekee Match.RecordResult.</text>
+  <text x="24" y="372" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Välitehtävässä käy tämä polku koodista osoittaen, ei kaaviota lukien.</text>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-label="Lainaamo: välineet, lainat ja uudet säännöt">
+  <rect width="960" height="400" fill="#f7f5f2"/>
+  <text x="24" y="36" font-family="Segoe UI, Calibri, sans-serif" font-size="20" font-weight="700" fill="#1d3557">Mitä rakennamme: Lainaamo</text>
+
+  <rect x="40" y="70" width="280" height="210" rx="10" fill="#1d3557"/>
+  <text x="56" y="102" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Välineet</text>
+  <text x="56" y="130" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Nimi</text>
+  <text x="56" y="152" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Huollossa? (uusi)</text>
+  <text x="56" y="186" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">GET/POST /api/items</text>
+  <text x="56" y="208" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">POST .../maintenance</text>
+
+  <rect x="340" y="70" width="280" height="210" rx="10" fill="#457b9d"/>
+  <text x="356" y="102" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#ffffff" font-weight="700">Lainat</text>
+  <text x="356" y="130" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">Väline, lainaaja</text>
+  <text x="356" y="152" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">BorrowedAt, DueAt +14 vrk</text>
+  <text x="356" y="174" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#ffffff">ReturnedAt tai avoin</text>
+  <text x="356" y="208" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">POST /api/loans</text>
+  <text x="356" y="230" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#a8dadc">POST .../return</text>
+
+  <rect x="640" y="70" width="280" height="210" rx="10" fill="#e07a5f" stroke="#9b2226" stroke-width="2"/>
+  <text x="656" y="102" font-family="Segoe UI, Calibri, sans-serif" font-size="16" fill="#1d3557" font-weight="700">Säännöt</text>
+  <text x="656" y="130" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Nimi ei tyhjä</text>
+  <text x="656" y="152" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Ei avointa lainaa kahdesti</text>
+  <text x="656" y="174" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Huolto → ei lainaa</text>
+  <text x="656" y="196" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">DueAt = +14 vuorokautta</text>
+  <text x="656" y="230" font-family="Segoe UI, Calibri, sans-serif" font-size="13" fill="#1d3557">Sijoitus: vaihe 3</text>
+
+  <text x="40" y="322" font-family="Segoe UI, Calibri, sans-serif" font-size="15" fill="#1d3557">Sama tuote kuin kerralla 1, plus huolto ja eräpäivä — jotta aneemista mallia ei voi kopioida.</text>
+  <text x="40" y="350" font-family="Segoe UI, Calibri, sans-serif" font-size="14" fill="#457b9d">Älä avaa kerran 1 Models-luokkia pohjaksi. Suunnittele ensin, koodaa sitten.</text>
+</svg>
