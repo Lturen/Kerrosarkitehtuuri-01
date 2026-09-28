@@ -13,14 +13,14 @@ Näitä **ei palauteta**. Käy läpi sen jälkeen kun ohjattu osio on tehty.
 
 2. Mihin suuntaan riippuvuudet kulkevat? Saako Repository kutsua Serviceä?
    --Controller --> Services --> repositories.
-
    -- Repository injektoidaan service luokan konstruktorissa, ja repository ei missään vaiheessa kutsu service
 
 3. Käy läpi, mitä tapahtuu kun `POST /api/matches/1/result` kutsu saapuu.
 
+
 4. Mihin kerrokseen kuuluvat: (a) `return NotFound(...)` (b) `if (match.HomeGoals is not null)` (c) `_matches.FirstOrDefault(...)`?
    --Controller luokka palauttaa notfound.
-   --(b) Bisnes logiikka kuuluu services kerrokseen.
+   --(b) Bisneslogiikka kuuluu services kerrokseen.
 
 5. Miksi `IMatchRepositoryssa` ei ole metodia `IsResultAlreadyRecorded`?
 
@@ -30,8 +30,11 @@ Näitä **ei palauteta**. Käy läpi sen jälkeen kun ohjattu osio on tehty.
    --Yksi luokka, yksi tehtävä. Esim repositories on tarkoitettu säilömään dataa.
 
 7. Mitä **DIP** tarkoittaa? Kaksi hyötyä siitä, että `MatchService` riippuu `IMatchRepositorysta`.
+   -- Voidaan testata ilman oikeita otteluita.
+   --
 
 8. Mitä konstruktori-injektio tarkoittaa?
    --Tarkoittanee sitä että ei luoda riippuvuutta suoraan toiseen luokkaan, vaan käytetään luokan rajapintaa. Tämä otetaan käyttöön toisen luokan konstruktorissa,
 
 9. Miksi in-memory-repositoryt rekisteröidään **Singletonina**? Mitä tapahtuu, jos ne ovat **Scoped**?
+   -- Ne on pysyvää dataa joten singletonina ilmeisesti data häviää aina uuden pyynnön saapuessa.

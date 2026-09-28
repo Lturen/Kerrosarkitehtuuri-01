@@ -2,6 +2,8 @@
 {
     public class MatchScore
     {
+        public int Id { get; set; }
+
         public int HomeTeamScore { get; set; }
 
         public int AwayTeamScore { get; set; }

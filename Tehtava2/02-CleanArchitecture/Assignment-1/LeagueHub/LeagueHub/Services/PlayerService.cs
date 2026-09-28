@@ -1,5 +1,6 @@
 ﻿using LeagueHub.Repository;
 using LeagueHub.Models;
+using LeagueHub.Expections;
 
 namespace LeagueHub.Services
 {
@@ -17,34 +18,66 @@ namespace LeagueHub.Services
             return _player.GetAllPlayers();
         }
 
-        public Player GetPlayerById(int id)
+        public Player? GetPlayerById(int id)
         {
-            var player = _player.GetPlayerById(id);
-
-            if (player == null)
+            if (id <= 0)
             {
-                throw new Exception($"Player with ID {id} not found.");
+                throw new PlayerExpection("Id must be greater than 0", 400);
             }
 
-            return player;
+            return _player.GetPlayerById(id);
         }
 
         public Player? CustomisePlayerById(int id)
         {
-            var player = _player.CustomisePlayerById(id);
+            if (id <= 0)
+            {
+                throw new PlayerExpection("Id must be greater than 0", 400);
+            }
 
+            return _player.CustomisePlayerById(id);
+        }
+
+        public Player AddPlayer(Player player)
+        {
             if (player == null)
             {
-                throw new Exception($"Player with ID {id} not found.");
+                throw new PlayerExpection("Player cannot be null", 400);
             }
-            
-
-            return player;
+            else if (string.IsNullOrEmpty(player.Name))
+            {
+                throw new PlayerExpection("Player name cannot be null or empty", 400);
+            }
+            else if (player.Age <= 0)
+            {
+                throw new PlayerExpection("Player age must be greater than 0", 400);
+            }
+            else if (player.PlayerNumber <= 0)
+            {
+                throw new PlayerExpection("Player number must be greater than 0", 400);
+            }
+            else if (_player.GetAllPlayers().Any(p => p.PlayerNumber == player.PlayerNumber))
+            {
+                throw new PlayerExpection("Player with the same player number already exists", 409);
+            }
+            else
+            {
+                return _player.AddPlayer(player);
+            }
         }
 
         public void RemovePlayer(Player player)
         {
-            _player.RemovePlayer(player);
+            var existingPlayers = _player.GetAllPlayers();
+
+            if (existingPlayers.Any(p => p.PlayerNumber == player.PlayerNumber))
+            {
+                _player.RemovePlayer(player);
+            }
+            else
+            {
+                throw new PlayerExpection("Player does not exist", 404);
+            }
         }
 
     }

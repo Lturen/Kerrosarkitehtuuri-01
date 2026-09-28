@@ -6,7 +6,7 @@ namespace LeagueHub.Services
     {
         List<Team> GetAllTeams();
 
-        Team? GetById(int id);
+        Team? GetTeamById(int id);
 
         Team AddTeam(Team team);
 

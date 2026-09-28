@@ -2,6 +2,8 @@
 {
     public class LeagueTable
     {
+        public int Id { get; set; }
+
         public int TeamId { get; set; }
 
         public int Points { get; set; }

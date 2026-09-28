@@ -1,15 +1,30 @@
+using LeagueHub.Repository;
+using LeagueHub.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<ITeamRepository, InMemoryTeamRepository>();
+builder.Services.AddScoped<ITeamService, TeamService>();
+
+builder.Services.AddScoped<IPlayerRepository, InMemoryPlayerRepository>();
+builder.Services.AddScoped<IPlayerService, PlayerService>();
+
+builder.Services.AddScoped<IMatchRepository, InMemoryMatchRepository>();
+builder.Services.AddScoped<IMatchService, MatchService>();
+
+builder.Services.AddScoped<IMatchScoreRepository, InMemoryMatchScoreRepository>();
+builder.Services.AddScoped<IMatchScoreService, MatchScoreService>();
+
+builder.Services.AddScoped<ILeagueTableRepository, InMemoryLeagueTableRepository>();
+builder.Services.AddScoped<ILeagueTableService, LeagueTableService>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

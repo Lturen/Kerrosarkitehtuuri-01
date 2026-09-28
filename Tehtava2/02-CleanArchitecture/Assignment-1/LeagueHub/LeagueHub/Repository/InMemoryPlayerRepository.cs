@@ -26,12 +26,15 @@ namespace LeagueHub.Repository
             return player;
         }
 
+        public Player AddPlayer(Player player)
+        {
+            _players.Add(player);
+            return player;
+        }
+
         public void RemovePlayer(Player player)
         {
             _players.Remove(player);
         }
-
-
-
     }
 }

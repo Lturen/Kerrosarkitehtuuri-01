@@ -2,7 +2,7 @@
 
 namespace LeagueHub.Repository
 {
-    public class InMemoryTeamRepository : ITeamMemoryRepository
+    public class InMemoryTeamRepository : ITeamRepository
     {
         private readonly List<Team> _teams = new()
         {
@@ -20,9 +20,10 @@ namespace LeagueHub.Repository
         {
             return _teams.FirstOrDefault(t => t.Id == id);
         }
-        
-        public Team? AddTeam(Team team)
+
+        public Team AddTeam(Team team)
         {
+            _teams.Add(team);
             return team;
         }
 

@@ -10,6 +10,8 @@ namespace LeagueHub.Repository
 
         Player? CustomisePlayerById(int id);
 
+        Player AddPlayer(Player player);
+
         void RemovePlayer(Player player);
     }
 }

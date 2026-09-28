@@ -7,9 +7,9 @@ namespace LeagueHub.Services
 {
     public class TeamService : ITeamService
     {
-        private readonly ITeamMemoryRepository _teams;
+        private readonly ITeamRepository _teams;
 
-        public TeamService(ITeamMemoryRepository teams)
+        public TeamService(ITeamRepository teams)
         {
             _teams = teams;
         }
@@ -18,49 +18,42 @@ namespace LeagueHub.Services
         {
             return _teams.GetAllTeams();
         }
-        public Team? GetById(int id)
-        {
 
+        public Team? GetTeamById(int id)
+        {
             if (id <= 0)
             {
-                throw new TeamExpection("Id must be greater than 0");
+                throw new TeamExpection("Id must be greater than 0", 400);
             }
-            else
-            {
-                Team team = _teams.GetTeamById(id);
-                return team;
-            }
+
+            return _teams.GetTeamById(id);
         }
 
         public Team AddTeam(Team team)
         {
-            var existingTeam = _teams.GetTeamById(team.Id);
-
-            var allTeams = _teams.GetAllTeams();
-
-            if (existingTeam != null)
+            if (team == null)
             {
-                throw new TeamExpection("Team with the same id already exists");
-            }
-            else if (allTeams.Any(t => t.Name == team.Name))
-            {
-                throw new TeamExpection("Team with the same name already exists");
-            }
-            else if (team == null)
-            {
-                throw new TeamExpection("Team cannot be null");
+                throw new TeamExpection("Team cannot be null", 400);
             }
             else if (string.IsNullOrEmpty(team.Name))
             {
-                throw new TeamExpection("Team name cannot be null or empty");
+                throw new TeamExpection("Team name cannot be null or empty", 400);
             }
             else if (string.IsNullOrEmpty(team.City))
             {
-                throw new TeamExpection("Team city cannot be null or empty");
+                throw new TeamExpection("Team city cannot be null or empty", 400);
             }
             else if (team.MaxPlayersOnField <= 0)
             {
-                throw new TeamExpection("Max players on field must be greater than 0");
+                throw new TeamExpection("Max players on field must be greater than 0", 400);
+            }
+            else if (_teams.GetTeamById(team.Id) != null)
+            {
+                throw new TeamExpection("Team with the same id already exists", 409);
+            }
+            else if (_teams.GetAllTeams().Any(t => t.Name == team.Name))
+            {
+                throw new TeamExpection("Team with the same name already exists", 409);
             }
             else
             {
@@ -77,7 +70,7 @@ namespace LeagueHub.Services
             }
             else
             {
-                throw new TeamExpection("Team does not exist");
+                throw new TeamExpection("Team does not exist", 404);
             }
         }
     }
