@@ -23,11 +23,14 @@ Näitä **ei palauteta**. Käy läpi sen jälkeen kun ohjattu osio on tehty.
    --(b) Bisneslogiikka kuuluu services kerrokseen.
 
 5. Miksi `IMatchRepositoryssa` ei ole metodia `IsResultAlreadyRecorded`?
+   -- koska logiikka kuuluu servisec kerrokseen.
 
 ## SOLID ja DI
 
 6. Mitä **SRP** tarkoittaa? Miten `LeagueController` rikkoi sitä?
+   --Solid on arkitehtuuri tyyli, jolla softa rakennetaan nyky standartien mukaisesti.
    --Yksi luokka, yksi tehtävä. Esim repositories on tarkoitettu säilömään dataa.
+   --League controllerissa koodi oli kasassa controllerissa
 
 7. Mitä **DIP** tarkoittaa? Kaksi hyötyä siitä, että `MatchService` riippuu `IMatchRepositorysta`.
    -- Voidaan testata ilman oikeita otteluita.

@@ -1,0 +1,9 @@
+# Paikallinen kanta ja konekohtainen osoite eivät kuulu historiaan.
+*.db
+*.db-shm
+*.db-wal
+appsettings.local.json
+bin/
+obj/
+.vs/
+*.user
