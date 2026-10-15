@@ -1,6 +1,10 @@
+Asiakkaan antama tieto:
+
 "Opiskelijan pitää pystyä varaamaan yksi pelipiste tietyksi ajaksi. Henkilökunnan pitää pystyä järjestämään tapahtuma, joka varaa koko tilan. Kenen tahansa pitää nähdä, mikä on vapaana juuri nyt ja tänään.
 
 Säännöt ovat ehdottomia: samaa pelipistettä ei saa kahdelle samaan aikaan, tapahtuman aikana ei ole yksittäisvarauksia, varaus on aukioloaikojen sisällä, varauksella on yläraja, ja varauksen voi perua vain ennen sen alkua.
+
+muistiinpanot:
 
 Sääntöjen ei pidä olla kiinni tallennustavassa. Ensi vuonna tila laajenee toiselle kampukselle, ja silloin katsotaan uudestaan, mihin data menee.
 -Huoneeseen pitää päästä aukioloaikojen puitteissa kulkulätkällä.
