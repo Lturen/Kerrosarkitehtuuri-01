@@ -1,0 +1,5 @@
+-Tilakäyttäytymisen säännöt sovelluksessa saatavilla.
+-Tilassa puhdistusliinoja pintojen pyyhintään.
+-Koneiden numeroinnit, varauksessa on ilmoitettava koneen numero.
+-Toivepyyntö peleille järjestelmän ylläpitäjille.
+-Wifin salasana seinälle.
