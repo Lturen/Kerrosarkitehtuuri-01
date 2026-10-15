@@ -3,6 +3,26 @@
 Domain-malli kuvaa luokat ja liiketoimintasäännöt riippumatta tallennustavasta.
 Kielen (FI/EN), ulkoasun (Xamkin värit, logot) ja fyysisten asioiden (puhdistusliinat, wifi) kohdat kuuluvat UI:hin, eivät tähän.
 
+## Sanasto
+
+| Sana | Koodissa | Yksi lause |
+|---|---|---|
+| **Käyttäjä** | `User` | Henkilö, joka kirjautuu koulun sähköpostilla ja jolla on rooli (opiskelija, henkilökunta, admin, superadmin). |
+| **Kampus** | `Campus` | Koulun toimipiste, jolla on pelihuone, pelipisteet ja aukioloajat. |
+| **Pelipiste** | `GameStation` | Yksittäinen varattava piste (PC, Switch tai PlayStation), jolla on numero ja lista peleistä. |
+| **Peli** | `Game` | Pelipisteellä pelattavissa oleva peli, jolla on nimi ja alusta. |
+| **Varaus** | `Booking` | Yhden käyttäjän aikaväli yhdellä pelipisteellä, jonka voi perua ennen alkua. |
+| **Tapahtuma** | `Event` | Henkilökunnan järjestämä tilaisuus, joka varaa koko kampuksen tilan eikä salli yksittäisvarauksia. |
+| **Aikaväli** | `TimeSlot` | Alkamis- ja päättymisaika, jonka kesto on 30 min – 4 h ja joka mahtuu aukioloaikojen sisään. |
+| **Aukioloaika** | `OpeningHours` | Kampuksen viikonpäiväkohtainen aukeamis- ja sulkeutumisaika. |
+| **Sähköposti** | `Email` | Koulun sähköpostiosoite (`@xamk.fi` tai `@edu.xamk.fi`), jolla käyttäjä tunnistetaan. |
+| **Ilmoitus** | `Notification` | Käyttäjälle lähetetty viesti varauksen peruuntumisesta tai koko päivän varauksesta. |
+| **Uutinen** | `NewsItem` | Ylläpitäjän etusivulle julkaisema pelitilan uutinen. |
+| **Toivepyyntö** | `GameRequest` | Käyttäjän ylläpitäjille esittämä toive uudesta pelistä. |
+| **Vapaana** | `IsFree` | Laskettu tieto: kampus auki, ei Tapahtumaa eikä aktiivista Varausta nykyhetkellä. Ei tallenneta. |
+
+Valinnat: asiakas puhuu "pelipisteestä", joten `Pelikone`-nimi vaihdettiin siihen, koska tilassa on myös Switch ja PlayStation. Tunnisteet ovat koodissa englanniksi, kurssin tapaan.
+
 ## Luokat
 
 ### Käyttäjä
